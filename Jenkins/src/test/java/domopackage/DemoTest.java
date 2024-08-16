@@ -12,6 +12,7 @@ public class DemoTest {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://demowebshop.tricentis.com/");
 		Reporter.log("Created jenkins and opened browser",true);
+		Reporter.log("Checking the Jenkins after code change",true);
 	}
 
 }
